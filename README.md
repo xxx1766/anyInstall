@@ -7,3 +7,4 @@
 | 工具 | 平台 | 说明 |
 |------|------|------|
 | [zsh](./zsh/) | Debian/Ubuntu | Zsh + Oh My Zsh + 常用插件 |
+| [k8s](./k8s/) | Debian/Ubuntu | Kubernetes (containerd + kubeadm，支持 v1.28~v1.32) |
