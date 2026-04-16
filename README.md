@@ -8,3 +8,4 @@
 |------|------|------|
 | [zsh](./zsh/) | Debian/Ubuntu | Zsh + Oh My Zsh + 常用插件 |
 | [k8s](./k8s/) | Debian/Ubuntu | Kubernetes (containerd + kubeadm，支持 v1.28~v1.32) |
+| [claude_code_cli](./claude_code_cli/) | Linux / macOS | Claude Code CLI（npm 安装 + 环境变量配置） |
