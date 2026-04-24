@@ -34,7 +34,7 @@ LATEST_VERSION="${LATEST#go}"
 echo ""
 echo -e "检测到最新版本: ${GREEN}${LATEST_VERSION}${NC}"
 echo -e "请输入要安装的版本号（直接回车安装最新版 ${LATEST_VERSION}）："
-read -r INPUT_VERSION
+read -r INPUT_VERSION < /dev/tty
 
 if [ -z "$INPUT_VERSION" ]; then
     VERSION="$LATEST_VERSION"
